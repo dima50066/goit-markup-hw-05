@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./images/icons.svg">
-
 </head>
 
 <body>
@@ -352,15 +351,44 @@
                             </svg></a></li>
                 </ul>
             </div>
+
+            <!-- backdrop -->
+
+            <div class="backdrop">
+
+                <p class="backdrop-title">Subscribe</p>
+
+                <div class="modal-field">
+                    <input placeholder="email" type="email" class="form-input" id="user-email"
+                        name="Email користувача" />
+                    <button id="myBtn">Subscribe
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#telegram"></use>
+                        </svg>
+                    </button>
+
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Leave your contacts and we will call you back</p>
+
+                        <label>
+                            <input type="text" placeholder="">
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-
-
-
-
-
     </footer>
 
-
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
