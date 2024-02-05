@@ -360,14 +360,12 @@
             <!-- backdrop -->
 
             <div class="sub">
-
                 <p class="sub-title">Subscribe</p>
-
                 <div class="sub-field">
-                    <input placeholder="E-mail" type="email" class="form-input" id="user-email"
+                    <input placeholder="E-mail" type="email" class="sub-input" id="user-email"
                         name="Email користувача" />
-                    <button id="sub-button">Subscribe
-                        <svg width="24" height="24">
+                    <button class="sub-button">Subscribe
+                        <svg class="sub-svg" width="24" height="24">
                             <use href="./images/icons.svg#telegram"></use>
                         </svg>
                     </button>
@@ -379,8 +377,9 @@
                     <div class="modal-container">
                         <form>
                             <fieldset>
+                                <button type="button" data-modal-close></button>
+                                <h2 class="modal-title">Leave your contacts and we will call you back</h2>
                                 <label>
-                                    <legend>Leave your contacts and we will call you back</legend>
                                     Name
                                     <input type="text" name="name" />
                                 </label>

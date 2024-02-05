@@ -486,6 +486,48 @@ address {
   background-color: #31d0aa;
 }
 
+/* SUBSCRIBE box */
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.sub-field {
+}
+.sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.sub-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.sub-button {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-svg {
+  color: #fff;
+}
 /* BACKDROP */
 .backdrop {
   position: fixed;
@@ -537,4 +579,13 @@ fieldset {
   padding: 0;
   margin: 0;
   border: none;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
