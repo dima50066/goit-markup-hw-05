@@ -485,3 +485,13 @@ address {
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
+
+/* BACKDROP */
+
+/* modal */
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
