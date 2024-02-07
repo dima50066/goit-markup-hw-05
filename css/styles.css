@@ -50,6 +50,11 @@ img {
   overflow: hidden;
 }
 
+form {
+  display: block;
+  margin-top: 0em;
+}
+
 /* header */
 address {
   margin-left: auto;
@@ -598,6 +603,8 @@ fieldset {
 }
 
 .contacts-field {
+  display: flex;
+  flex-direction: column;
 }
 .contacts-label {
   display: flex;
@@ -612,8 +619,6 @@ fieldset {
 }
 
 .contacts-field-box {
-  display: flex;
-  flex-direction: column;
 }
 
 .contacts-field-input {
@@ -657,7 +662,7 @@ fieldset {
 .contacts-send-btn {
   border: none;
   border-radius: 4px;
-  padding: 16px 32px;
+  margin: 24px 72px 0 95px;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
