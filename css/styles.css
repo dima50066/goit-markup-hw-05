@@ -494,8 +494,6 @@ address {
   margin: 0 auto;
 }
 
-.sub-field {
-}
 .sub-title {
   font-weight: 500;
   font-size: 16px;
@@ -582,7 +580,15 @@ fieldset {
   border: none;
 }
 
+.contacts-close-btn {
+  /* text */
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+
 .contacts-title {
+  /* text */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -591,16 +597,61 @@ fieldset {
   color: #2e2f42;
 }
 
+.contacts-field {
+}
 .contacts-label {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 0;
+  /* text */
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #8e8f99;
+}
+
+.contacts-field-box {
   display: flex;
   flex-direction: column;
 }
 
-.contacts-close-btn {
+.contacts-field-input {
+  margin: 4px 0 0;
   border-radius: 4px;
-  width: 24px;
-  height: 24px;
-  align-self: flex-end;
+  border: solid 1px rgba(46, 47, 66, 0.4);
+}
+
+.contacts-field-textarea {
+  margin: 4px 0 0;
+  border-radius: 4px;
+  border: solid 1px rgba(46, 47, 66, 0.4);
+  padding: 8px 96px 44px 16px;
+}
+
+.contacts-field-textarea::placeholder {
+  /* text */
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  color: #2e2f4266;
+}
+.privacy {
+  margin: 16px 0 0;
+}
+
+.privacy-label {
+  /* text */
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  color: #8e8f99;
+}
+
+.privacy-link {
+  /* text */
+  line-height: 1.33;
+  color: #4d5ae5;
 }
 
 .contacts-send-btn {
@@ -611,7 +662,6 @@ fieldset {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  margin: 0 auto;
   /* text */
   font-weight: 500;
   font-size: 16px;

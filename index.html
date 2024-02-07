@@ -375,30 +375,48 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <div class="modal-container">
+                        <button class="contacts-close-btn" type="button" data-modal-close></button>
+                        <h2 class="contacts-title">Leave your contacts and we will call you back</h2>
 
-                        <form name="contacts-form" autocomplete="on">
-                            <button class="contacts-close-btn" type="button" data-modal-close></button>
-                            <h2 class="contacts-title">Leave your contacts and we will call you back</h2>
-                            <label class="contacts-label">
-                                Name
-                                <input type="text" name="name" />
-                            </label>
-                            <label class="contacts-label">
-                                Phone
-                                <input type="tel" name="phone" />
-                            </label>
-                            <label class="contacts-label">
-                                Email
-                                <input type="email" name="email" />
-                            </label>
-                            <label class="contacts-label">
-                                Comment
-                                <textarea name="comment" id="" cols="30" rows="10" placeholder="Text input"></textarea>
-                            </label>
-                            <div class="Privacy">
+
+                        <form class="form" name="contacts-form" autocomplete="on">
+                            <div class="contacts-field">
+                                <label class="contacts-label">
+                                    Name
+                                </label>
+                                <div class="contacts-field-box">
+                                    <input class="contacts-field-input" type="text" name="name" />
+                                </div>
+                            </div>
+                            <div class="contacts-field">
+                                <label class="contacts-label">
+                                    Phone
+                                </label>
+                                <div class="contacts-field-box">
+                                    <input class="contacts-field-input" type="tel" name="phone" />
+                                </div>
+                            </div>
+                            <div class="contacts-field">
+                                <label class="contacts-label">
+                                    Email
+                                </label>
+                                <div class="contacts-field-box">
+                                    <input class="contacts-field-input" type="email" name="email" />
+                                </div>
+                            </div>
+                            <div class="contacts-field">
+                                <label class="contacts-label">
+                                    Comment
+                                </label>
+                                <div class="contacts-field-box">
+                                    <textarea class="contacts-field-textarea" name="comment" id="" cols="30" rows="10"
+                                        placeholder="Text input"></textarea>
+                                </div>
+                            </div>
+                            <div class="privacy">
                                 <input type="checkbox" id="privacy">
-                                <label for="privacy">I accept the terms and conditions of the Privacy
-                                    Policy</label>
+                                <label class="privacy-label" for="privacy">I accept the terms and conditions of the
+                                    <a class="privacy-link" href="">Privacy Policy</a></label>
                             </div>
 
 
