@@ -706,16 +706,12 @@ fieldset {
 }
 
 .checkbox-input {
-  appearance: none;
 }
 
 .checkbox-icon {
-  top: 4px;
-  left: -6px;
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.checkbox-icon:hover {
 }
 
 .privacy-label {
