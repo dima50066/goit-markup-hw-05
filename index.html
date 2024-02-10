@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Studio</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -376,7 +376,7 @@
                 <div class="modal">
                     <div class="modal-container">
                         <button class="modal-close contacts-close-btn" type="button" data-modal-close>
-                            <svg class="" width="8" height="8">
+                            <svg class="close-btn-icon" width="8" height="8">
                                 <use href="./images/icons.svg#close-btn"></use>
                             </svg>
                         </button>
@@ -425,7 +425,10 @@
                                 </div>
                             </div>
                             <div class="privacy">
-                                <input type="checkbox" id="privacy">
+                                <input class="checkbox-input" type="checkbox" name="modal-checkbox">
+                                <svg class="checkbox-icon">
+                                    <use href="./images/icons.svg#checkbox-btn"></use>
+                                </svg>
                                 <label class="privacy-label" for="privacy">I accept the terms and conditions of the
                                     <a class="privacy-link" href="">Privacy Policy</a></label>
                             </div>
