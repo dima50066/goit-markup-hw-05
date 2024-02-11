@@ -372,96 +372,83 @@
                     </button>
                 </form>
             </div>
-            <!-- The Modal -->
-            <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <div class="modal-container">
-                        <button class="modal-close contacts-close-btn" type="button" data-modal-close>
-                            <svg class="close-btn-icon" width="8" height="8">
-                                <use href="./images/icons.svg#close-btn"></use>
-                            </svg>
-                        </button>
-                        <h2 class="contacts-title">Leave your contacts and we will call you back</h2>
-                        <form class="form" name="contacts-form" autocomplete="on">
-                            <div class="contacts-field">
-                                <label class="contacts-label">
-                                    Name
-                                </label>
-                                <div class="contacts-field-box">
-                                    <input class="contacts-field-input" type="text" name="name" />
-                                    <svg class="modal-icon" width="12" height="12">
-                                        <use href="./images/icons.svg#person"></use>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="contacts-field">
-                                <label class="contacts-label">
-                                    Phone
-                                </label>
-                                <div class="contacts-field-box">
-                                    <input class="contacts-field-input" type="tel" name="phone" />
-                                    <svg class="modal-icon" width="12" height="12">
-                                        <use href="./images/icons.svg#phone"></use>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="contacts-field">
-                                <label class="contacts-label">
-                                    Email
-                                </label>
-                                <div class="contacts-field-box">
-                                    <input class="contacts-field-input" type="email" name="email" />
-                                    <svg class="modal-icon" width="12" height="12">
-                                        <use href="./images/icons.svg#email-box"></use>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="contacts-field">
-                                <label class="contacts-label">
-                                    Comment
-                                </label>
-                                <div class="contacts-field-box">
-                                    <textarea class="contacts-field-textarea" name="comment" id="" cols="30" rows="10"
-                                        placeholder="Text input"></textarea>
-                                </div>
-                            </div>
-                            <div class="privacy">
-                                <input class="checkbox-input" id="privacy-checkbox" type="checkbox"
-                                    name="modal-checkbox" value="privacy">
-                                <label class="privacy-label" for="privacy-checkbox">
-                                    <svg class="checkbox-icon" width="16" height="16">
-                                        <use href="./images/icons.svg#checkbox-btn"></use>
-                                    </svg>I accept the terms and conditions of
-                                    the
-                                    <a class="privacy-link" href="">Privacy Policy</a></label>
-                            </div>
-
-
-                            <button class="contacts-send-btn" type="submit">Send</button>
-
-                        </form>
-
-
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     </footer>
 
+    <!-- MODAL -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <div class="modal-container">
+                <button class="modal-close contacts-close-btn" type="button" data-modal-close>
+                    <svg class="close-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#close-btn"></use>
+                    </svg>
+                </button>
+                <h2 class="contacts-title">Leave your contacts and we will call you back</h2>
+                <form class="form" name="contacts-form" autocomplete="on">
+                    <div class="contacts-field">
+                        <label class="contacts-label">
+                            Name
+                        </label>
+                        <div class="contacts-field-box">
+                            <input class="contacts-field-input" type="text" name="name" />
+                            <svg class="modal-icon" width="12" height="12">
+                                <use href="./images/icons.svg#person"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="contacts-field">
+                        <label class="contacts-label">
+                            Phone
+                        </label>
+                        <div class="contacts-field-box">
+                            <input class="contacts-field-input" type="tel" name="phone" />
+                            <svg class="modal-icon" width="12" height="12">
+                                <use href="./images/icons.svg#phone"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="contacts-field">
+                        <label class="contacts-label">
+                            Email
+                        </label>
+                        <div class="contacts-field-box">
+                            <input class="contacts-field-input" type="email" name="email" />
+                            <svg class="modal-icon" width="12" height="12">
+                                <use href="./images/icons.svg#email-box"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="contacts-field">
+                        <label class="contacts-label">
+                            Comment
+                        </label>
+                        <div class="contacts-field-box">
+                            <textarea class="contacts-field-textarea" name="comment" id="" cols="30" rows="10"
+                                placeholder="Text input"></textarea>
+                        </div>
+                    </div>
+                    <div class="privacy">
+                        <input class="checkbox-input" id="privacy-checkbox" type="checkbox" name="modal-checkbox"
+                            value="privacy">
+                        <label class="privacy-label" for="privacy-checkbox">
+                            <svg class="checkbox-icon" width="16" height="16">
+                                <use href="./images/icons.svg#checkbox-btn"></use>
+                            </svg>I accept the terms and conditions of
+                            the
+                            <a class="privacy-link" href="">Privacy Policy</a></label>
+                    </div>
+
+
+                    <button class="contacts-send-btn" type="submit">Send</button>
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 
