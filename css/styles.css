@@ -667,10 +667,10 @@ address {
   background-color: transparent;
 }
 
-.contacts-field-input:focus + .modal-icon {
+.contacts-field-input:hover + .modal-icon {
   fill: #4d5ae5;
 }
-.contacts-field-input:focus {
+.contacts-field-input:hover {
   border-color: #4d5ae5;
 }
 
