@@ -609,6 +609,7 @@ address {
 .contacts-close-btn:hover,
 .contacts-close-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .close-btn-icon {
@@ -617,12 +618,8 @@ address {
 
 .contacts-close-btn:hover > .close-btn-icon,
 .contacts-close-btn:focus > .close-btn-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
-
-/* .contacts-close-btn:focus > .close-btn-icon {
-  fill: #fff;
-} */
 
 .modal-container {
   padding: 72px 24px 24px 24px;
@@ -671,11 +668,18 @@ address {
   background-color: transparent;
 }
 
-.modal-icon:hover,
+/* .modal-icon:hover,
 .modal-icon:focus {
   fill: #4d5ae5;
+} */
+
+.contacts-field-input:hover,
+.contacts-field-input:focus {
+  border-color: #4d5ae5;
 }
-.contacts-field-input:hover {
+
+.contacts-field-input:focus-within + .modal-icon {
+  fill: #4d5ae5;
   border-color: #4d5ae5;
 }
 
@@ -754,13 +758,16 @@ input:checked + span {
 }
 
 .contacts-send-btn {
+  display: block;
   border: none;
+  cursor: pointer;
   border-radius: 4px;
   margin: 24px 72px 0 95px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* text */
   font-weight: 500;
   font-size: 16px;
