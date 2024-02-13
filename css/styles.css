@@ -605,7 +605,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* CLOSE BTN HOVER FOCUS */
 .contacts-close-btn:hover {
   background-color: #404bbf;
 }
@@ -676,6 +676,7 @@ address {
   background-color: transparent;
 }
 
+/* INPUT FOCUS */
 .contacts-field-input:focus {
   border-color: #4d5ae5;
 }
@@ -737,6 +738,8 @@ address {
   justify-content: center;
   fill: transparent;
 }
+
+/* INPUT CHECKED */
 
 .checkbox-input:checked + .privacy-label {
   span {
